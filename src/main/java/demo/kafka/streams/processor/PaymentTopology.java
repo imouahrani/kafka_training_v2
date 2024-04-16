@@ -1,8 +1,5 @@
 package demo.kafka.streams.processor;
 
-import java.util.Arrays;
-import java.util.List;
-
 import demo.kafka.streams.event.PaymentEvent;
 import demo.kafka.streams.properties.KafkaStreamsDemoProperties;
 import demo.kafka.streams.serdes.PaymentSerdes;
@@ -12,15 +9,12 @@ import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.StreamsBuilder;
-import org.apache.kafka.streams.kstream.Aggregator;
-import org.apache.kafka.streams.kstream.Consumed;
-import org.apache.kafka.streams.kstream.Grouped;
-import org.apache.kafka.streams.kstream.Initializer;
-import org.apache.kafka.streams.kstream.KStream;
-import org.apache.kafka.streams.kstream.Materialized;
-import org.apache.kafka.streams.kstream.Produced;
+import org.apache.kafka.streams.kstream.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import java.util.Arrays;
+import java.util.List;
 
 @Component
 @Slf4j
