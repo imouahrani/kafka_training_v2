@@ -9,6 +9,7 @@ demo\kafka\streams\mapper\JsonMapper.class
 demo\kafka\streams\processor\PaymentTopology$2.class
 demo\kafka\streams\processor\PaymentTopology.class
 demo\kafka\streams\serdes\JsonSerializer.class
+demo\kafka\streams\controller\BalanceController.class
 demo\kafka\streams\controller\TopologyController.class
 demo\kafka\streams\processor\PaymentTopology$1.class
 demo\kafka\streams\mapper\MappingException.class

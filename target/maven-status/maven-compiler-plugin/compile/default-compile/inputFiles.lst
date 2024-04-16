@@ -10,4 +10,5 @@ C:\MyProjects\kafka-streams-v2\src\main\java\demo\kafka\streams\processor\Paymen
 C:\MyProjects\kafka-streams-v2\src\main\java\demo\kafka\streams\controller\TopologyController.java
 C:\MyProjects\kafka-streams-v2\src\main\java\demo\kafka\streams\serdes\JsonDeserializer.java
 C:\MyProjects\kafka-streams-v2\src\main\java\demo\kafka\streams\processor\Rails.java
+C:\MyProjects\kafka-streams-v2\src\main\java\demo\kafka\streams\controller\BalanceController.java
 C:\MyProjects\kafka-streams-v2\src\main\java\demo\kafka\streams\mapper\MappingException.java
